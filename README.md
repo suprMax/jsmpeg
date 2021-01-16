@@ -1,3 +1,7 @@
+# Why this fork
+
+The original project seems to be in a state of sporadic abandonment with PRs not being merged. I took the liberty of re-publishing this package to NPM and keeping it more or less up to date.
+
 # JSMpeg – MPEG1 Video & MP2 Audio Decoder in JavaScript
 
 JSMpeg is a Video Player written in JavaScript. It consists of an MPEG-TS demuxer, MPEG1 video & MP2 audio decoders, WebGL & Canvas2D renderers and WebAudio sound output. JSMpeg can load static videos via Ajax and allows low latency streaming (~50ms) via WebSockets.
@@ -68,7 +72,7 @@ var player = new JSMpeg.Player('video.ts' {loop: true, autoplay: true});
 
 or HTML
 ```html
-<div class="jsmpeg" data-url="video.ts" 
+<div class="jsmpeg" data-url="video.ts"
 	data-loop="true" data-autoplay="true"></div>
 ```
 
@@ -185,7 +189,7 @@ ffmpeg \
 	http://localhost:8081/supersecret
 ```
 
-You should now see a live webcam image in your browser. 
+You should now see a live webcam image in your browser.
 
 If ffmpeg failed to open the input video, it's likely that your webcam does not support the given resolution, format or framerate. To get a list of compatible modes run:
 
