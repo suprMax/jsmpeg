@@ -1,0 +1,24 @@
+{
+  "name": "jspmeg-player",
+  "description": "MPEG1 Video & MP2 Audio Decoder in JavaScript",
+  "author": "phoboslab",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": "phoboslab/jsmpeg",
+  "bugs": "https://github.com/phoboslab/jsmpeg/issues",
+  "version": "0.2.0",
+  "keywords": [
+    "mpeg1",
+    "mp2",
+    "decoder"
+  ],
+  "files": [
+    "lib/index.js"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublishOnly": "node build.js && echo \"\\033[0;32mReady to publish\\033[0m\"",
+    "start": "echo 'Nothing to run'",
+    "test": "echo 'No tests present'"
+  }
+}
